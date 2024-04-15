@@ -3,7 +3,9 @@ HKUST ELEC 3300 Project
 ![Smart Home System](/assets/img/smart_home.jpg)
 ![System Diagram](/assets/img/smart_home_overview.png)
 
-# <a href="https://youtu.be/idSp3R__D4U">YouTube Demo</a>
+<p><a href="https://youtu.be/idSp3R__D4U">
+<img src="/assets/img/smart_home_thumbnail.png">
+</a></p>
 
 # Description
 In this project, we built an IOT(Internet Of Things) system that utilizes STM32F103 development boards to control an array of sensors and devices. This systems contains 4 major components: room monitoring, automatic brightness control, automatic temperature control, and control over WLAN. The project aims to provide a suite of centralized electronic devices that can improve the quality of life within a household. Originally, the system was intended to have a door lock control system and a mobile application for remote control. But due to budget and time constraints, these components was reduced to room monitoring and web server instead.
