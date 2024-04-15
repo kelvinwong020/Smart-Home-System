@@ -33,5 +33,6 @@ The fan speed can either be automatically or manually controlled.
 <br>![Fan](/assets/img/fan_auto.png)
 
 # Web Server / WLAN Control
-Interacting with STM32 board directly, even with the touch screen, can be annoying and inconvenient. Therefore, a web server was implemented, so that users can interact with system using their own devices(PC/Mobile) over WLAN. This achieved by hosting a HTML server at port 80 with a ESP8266. The ESP8266 communicates with the STM32 via a ring buffer.<br>
+Interacting with STM32 board directly, even with the touch screen, can be annoying and inconvenient. Therefore, a web server was implemented, so that users can interact with system using their own devices(PC/Mobile) over WLAN. This achieved by hosting a HTML server at port 80 with a ESP8266. The ESP8266 communicates with the STM32 via a ring buffer.
+The result is that users can control the smart home system from anywhere with in the house and receive updates from it.<br>
 ![WebServer](/assets/img/web_server.png)
